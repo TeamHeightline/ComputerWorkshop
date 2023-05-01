@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://TeamHeightline.github.io/computer-workshop",
+  "homepage": "http://TeamHeightline.github.io/ComputerWorkshop",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
