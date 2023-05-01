@@ -1,5 +1,5 @@
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
 } from "react-router-dom";
 
@@ -8,7 +8,7 @@ import Navbar from "./top-bar";
 import {CssBaseline} from "@mui/material";
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <Navbar/>,
